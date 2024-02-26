@@ -1,5 +1,6 @@
 let displayValue = '';
 
+\\
 function appendNumber(number) {
   displayValue += number;
   updateDisplay();
@@ -29,3 +30,6 @@ function calculate() {
 function updateDisplay() {
   document.getElementById('display').value = displayValue;
 }
+
+
+
